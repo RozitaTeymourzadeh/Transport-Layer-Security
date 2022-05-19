@@ -1,0 +1,464 @@
+%%% ====================================================================
+%%%  BibTeX-file{
+%%%     author          = "Gerry Murray",
+%%%     version         = "1.2",
+%%%     date            = "2 April 2012",
+%%%     filename        = "acmsmall-sample-bibfile.bib",
+%%%     address         = "ACM, NY",
+%%%     email           = "murray at hq.acm.org",
+%%%     codetable       = "ISO/ASCII",
+%%%     keywords        = "ACM Reference Format, bibliography, citation, references",
+%%%     supported       = "yes",
+%%%     docstring       = "This BibTeX database file contains 'bibdata' entries
+%%%                        that 'match' the examples provided in the Specifications Document
+%%%                        AND, also, 'legacy'-type bibs. It should assist authors in
+%%%                        choosing the 'correct' at-bibtype and necessary bib-fields
+%%%                        so as to obtain the appropriate ACM Reference Format output.
+%%%                        It also contains many 'Standard Abbreviations'. "
+%%%  }
+%%% ====================================================================
+
+% Journals
+
+% First the Full Name is given, then the abbreviation used in the AMS Math
+% Reviews, with an indication if it could not be found there.
+% Note the 2nd overwrites the 1st, so swap them if you want the full name.
+
+ %{AMS}
+ @String{AMSTrans = "American Mathematical Society Translations" }
+ @String{AMSTrans = "Amer. Math. Soc. Transl." }
+ @String{BullAMS = "Bulletin of the American Mathematical Society" }
+ @String{BullAMS = "Bull. Amer. Math. Soc." }
+ @String{ProcAMS = "Proceedings of the American Mathematical Society" }
+ @String{ProcAMS = "Proc. Amer. Math. Soc." }
+ @String{TransAMS = "Transactions of the American Mathematical Society" }
+ @String{TransAMS = "Trans. Amer. Math. Soc." }
+
+ %ACM
+ @String{CACM = "Communications of the {ACM}" }
+ @String{CACM = "Commun. {ACM}" }
+ @String{CompServ = "Comput. Surveys" }
+ @String{JACM = "J. ACM" }
+ @String{ACMMathSoft = "{ACM} Transactions on Mathematical Software" }
+ @String{ACMMathSoft = "{ACM} Trans. Math. Software" }
+ @String{SIGNUM = "{ACM} {SIGNUM} Newsletter" }
+ @String{SIGNUM = "{ACM} {SIGNUM} Newslett." }
+
+ @String{AmerSocio = "American Journal of Sociology" }
+ @String{AmerStatAssoc = "Journal of the American Statistical Association" }
+ @String{AmerStatAssoc = "J. Amer. Statist. Assoc." }
+ @String{ApplMathComp = "Applied Mathematics and Computation" }
+ @String{ApplMathComp = "Appl. Math. Comput." }
+ @String{AmerMathMonthly = "American Mathematical Monthly" }
+ @String{AmerMathMonthly = "Amer. Math. Monthly" }
+ @String{BIT = "{BIT}" }
+ @String{BritStatPsych = "British Journal of Mathematical and Statistical
+          Psychology" }
+ @String{BritStatPsych = "Brit. J. Math. Statist. Psych." }
+ @String{CanMathBull = "Canadian Mathematical Bulletin" }
+ @String{CanMathBull = "Canad. Math. Bull." }
+ @String{CompApplMath = "Journal of Computational and Applied Mathematics" }
+ @String{CompApplMath = "J. Comput. Appl. Math." }
+ @String{CompPhys = "Journal of Computational Physics" }
+ @String{CompPhys = "J. Comput. Phys." }
+ @String{CompStruct = "Computers and Structures" }
+ @String{CompStruct = "Comput. \& Structures" }
+ @String{CompJour = "The Computer Journal" }
+ @String{CompJour = "Comput. J." }
+ @String{CompSysSci = "Journal of Computer and System Sciences" }
+ @String{CompSysSci = "J. Comput. System Sci." }
+ @String{Computing = "Computing" }
+ @String{ContempMath = "Contemporary Mathematics" }
+ @String{ContempMath = "Contemp. Math." }
+ @String{Crelle = "Crelle's Journal" }
+ @String{GiornaleMath = "Giornale di Mathematiche" }
+ @String{GiornaleMath = "Giorn. Mat." } % didn't find in AMS MR., ibid.
+
+ %IEEE
+ @String{Computer = "{IEEE} Computer" }
+ @String{IEEETransComp = "{IEEE} Transactions on Computers" }
+ @String{IEEETransComp = "{IEEE} Trans. Comput." }
+ @String{IEEETransAC = "{IEEE} Transactions on Automatic Control" }
+ @String{IEEETransAC = "{IEEE} Trans. Automat. Control" }
+ @String{IEEESpec = "{IEEE} Spectrum" } % didn't find in AMS MR
+ @String{ProcIEEE = "Proceedings of the {IEEE}" }
+ @String{ProcIEEE = "Proc. {IEEE}" } % didn't find in AMS MR
+ @String{IEEETransAeroElec = "{IEEE} Transactions on Aerospace and Electronic
+     Systems" }
+ @String{IEEETransAeroElec = "{IEEE} Trans. Aerospace Electron. Systems" }
+
+ @String{IMANumerAna = "{IMA} Journal of Numerical Analysis" }
+ @String{IMANumerAna = "{IMA} J. Numer. Anal." }
+ @String{InfProcLet = "Information Processing Letters" }
+ @String{InfProcLet = "Inform. Process. Lett." }
+ @String{InstMathApp = "Journal of the Institute of Mathematics and
+     its Applications" }
+ @String{InstMathApp = "J. Inst. Math. Appl." }
+ @String{IntControl = "International Journal of Control" }
+ @String{IntControl = "Internat. J. Control" }
+ @String{IntNumerEng = "International Journal for Numerical Methods in
+     Engineering" }
+ @String{IntNumerEng = "Internat. J. Numer. Methods Engrg." }
+ @String{IntSuper = "International Journal of Supercomputing Applications" }
+ @String{IntSuper = "Internat. J. Supercomputing Applic." } % didn't find
+%% in AMS MR
+ @String{Kibernetika = "Kibernetika" }
+ @String{JResNatBurStand = "Journal of Research of the National Bureau
+     of Standards" }
+ @String{JResNatBurStand = "J. Res. Nat. Bur. Standards" }
+ @String{LinAlgApp = "Linear Algebra and its Applications" }
+ @String{LinAlgApp = "Linear Algebra Appl." }
+ @String{MathAnaAppl = "Journal of Mathematical Analysis and Applications" }
+ @String{MathAnaAppl = "J. Math. Anal. Appl." }
+ @String{MathAnnalen = "Mathematische Annalen" }
+ @String{MathAnnalen = "Math. Ann." }
+ @String{MathPhys = "Journal of Mathematical Physics" }
+ @String{MathPhys = "J. Math. Phys." }
+ @String{MathComp = "Mathematics of Computation" }
+ @String{MathComp = "Math. Comp." }
+ @String{MathScand = "Mathematica Scandinavica" }
+ @String{MathScand = "Math. Scand." }
+ @String{TablesAidsComp = "Mathematical Tables and Other Aids to Computation" }
+ @String{TablesAidsComp = "Math. Tables Aids Comput." }
+ @String{NumerMath = "Numerische Mathematik" }
+ @String{NumerMath = "Numer. Math." }
+ @String{PacificMath = "Pacific Journal of Mathematics" }
+ @String{PacificMath = "Pacific J. Math." }
+ @String{ParDistComp = "Journal of Parallel and Distributed Computing" }
+ @String{ParDistComp = "J. Parallel and Distrib. Comput." } % didn't find
+%% in AMS MR
+ @String{ParComputing = "Parallel Computing" }
+ @String{ParComputing = "Parallel Comput." }
+ @String{PhilMag = "Philosophical Magazine" }
+ @String{PhilMag = "Philos. Mag." }
+ @String{ProcNAS = "Proceedings of the National Academy of Sciences
+                    of the USA" }
+ @String{ProcNAS = "Proc. Nat. Acad. Sci. U. S. A." }
+ @String{Psychometrika = "Psychometrika" }
+ @String{QuartMath = "Quarterly Journal of Mathematics, Oxford, Series (2)" }
+ @String{QuartMath = "Quart. J. Math. Oxford Ser. (2)" }
+ @String{QuartApplMath = "Quarterly of Applied Mathematics" }
+ @String{QuartApplMath = "Quart. Appl. Math." }
+ @String{RevueInstStat = "Review of the International Statisical Institute" }
+ @String{RevueInstStat = "Rev. Inst. Internat. Statist." }
+
+ %SIAM
+ @String{JSIAM = "Journal of the Society for Industrial and Applied
+     Mathematics" }
+ @String{JSIAM = "J. Soc. Indust. Appl. Math." }
+ @String{JSIAMB = "Journal of the Society for Industrial and Applied
+     Mathematics, Series B, Numerical Analysis" }
+ @String{JSIAMB = "J. Soc. Indust. Appl. Math. Ser. B Numer. Anal." }
+ @String{SIAMAlgMeth = "{SIAM} Journal on Algebraic and Discrete Methods" }
+ @String{SIAMAlgMeth = "{SIAM} J. Algebraic Discrete Methods" }
+ @String{SIAMAppMath = "{SIAM} Journal on Applied Mathematics" }
+ @String{SIAMAppMath = "{SIAM} J. Appl. Math." }
+ @String{SIAMComp = "{SIAM} Journal on Computing" }
+ @String{SIAMComp = "{SIAM} J. Comput." }
+ @String{SIAMMatrix = "{SIAM} Journal on Matrix Analysis and Applications" }
+ @String{SIAMMatrix = "{SIAM} J. Matrix Anal. Appl." }
+ @String{SIAMNumAnal = "{SIAM} Journal on Numerical Analysis" }
+ @String{SIAMNumAnal = "{SIAM} J. Numer. Anal." }
+ @String{SIAMReview = "{SIAM} Review" }
+ @String{SIAMReview = "{SIAM} Rev." }
+ @String{SIAMSciStat = "{SIAM} Journal on Scientific and Statistical
+     Computing" }
+ @String{SIAMSciStat = "{SIAM} J. Sci. Statist. Comput." }
+
+ @String{SoftPracExp = "Software Practice and Experience" }
+ @String{SoftPracExp = "Software Prac. Experience" } % didn't find in AMS MR
+ @String{StatScience = "Statistical Science" }
+ @String{StatScience = "Statist. Sci." }
+ @String{Techno = "Technometrics" }
+ @String{USSRCompMathPhys = "{USSR} Computational Mathematics and Mathematical
+     Physics" }
+ @String{USSRCompMathPhys = "{U. S. S. R.} Comput. Math. and Math. Phys." }
+ @String{VLSICompSys = "Journal of {VLSI} and Computer Systems" }
+ @String{VLSICompSys = "J. {VLSI} Comput. Syst." }
+ @String{ZAngewMathMech = "Zeitschrift fur Angewandte Mathematik und
+     Mechanik" }
+ @String{ZAngewMathMech = "Z. Angew. Math. Mech." }
+ @String{ZAngewMathPhys = "Zeitschrift fur Angewandte Mathematik und Physik" }
+ @String{ZAngewMathPhys = "Z. Angew. Math. Phys." }
+
+% Publishers % ================================================= |
+
+ @String{Academic = "Academic Press" }
+ @String{ACMPress = "{ACM} Press" }
+ @String{AdamHilger = "Adam Hilger" }
+ @String{AddisonWesley = "Addison-Wesley" }
+ @String{AllynBacon = "Allyn and Bacon" }
+ @String{AMS = "American Mathematical Society" }
+ @String{Birkhauser = "Birkha{\"u}ser" }
+ @String{CambridgePress = "Cambridge University Press" }
+ @String{Chelsea = "Chelsea" }
+ @String{ClaredonPress = "Claredon Press" }
+ @String{DoverPub = "Dover Publications" }
+ @String{Eyolles = "Eyolles" }
+ @String{HoltRinehartWinston = "Holt, Rinehart and Winston" }
+ @String{Interscience = "Interscience" }
+ @String{JohnsHopkinsPress = "The Johns Hopkins University Press" }
+ @String{JohnWileySons = "John Wiley and Sons" }
+ @String{Macmillan = "Macmillan" }
+ @String{MathWorks = "The Math Works Inc." }
+ @String{McGrawHill = "McGraw-Hill" }
+ @String{NatBurStd = "National Bureau of Standards" }
+ @String{NorthHolland = "North-Holland" }
+ @String{OxfordPress = "Oxford University Press" }  %address Oxford or London?
+ @String{PergamonPress = "Pergamon Press" }
+ @String{PlenumPress = "Plenum Press" }
+ @String{PrenticeHall = "Prentice-Hall" }
+ @String{SIAMPub = "{SIAM} Publications" }
+ @String{Springer = "Springer-Verlag" }
+ @String{TexasPress = "University of Texas Press" }
+ @String{VanNostrand = "Van Nostrand" }
+ @String{WHFreeman = "W. H. Freeman and Co." }
+
+
+%Inbook{Knuth97,
+%  author =       "Donald E. Knuth",
+%  title =        "The Art of Computer Programming",
+%  booktitle =    "the booktitle",
+%  edition =      "3",
+%  volume =       "1",
+%  year =         "1997",
+%  publisher =    "Addison Wesley Longman Publishing Co., Inc.",
+%  editor =       "",
+%  number =       "",
+%  series =       "Fundamental Algorithms",
+%  type =         "",
+%  chapter =      "",
+%  pages =        "",
+%  address =      "",
+%  month =        "",
+%  note =         "(inbook)",
+%}
+
+%INBOOK{DK:73-inbook-full,
+%   author = "Donald E. Knuth",
+%   title = "Fundamental Algorithms (inbook w series)",
+%   volume = 1,
+%   series = "The Art of Computer Programming",
+%   publisher = "Addison-Wesley",
+%   address = "Reading, Massachusetts",
+%   edition = "Second",
+%   month = "10~" # jan,
+%   year = "1973",
+%   type = "Section",
+%   chapter = "1.2",
+%   pages = "10--119",
+%   note = "Full INBOOK entry (w series)",
+%}
+
+%INcollection{DK:74-incoll,
+%   author = "Donald E. Knuth",
+%   title = "Fundamental Algorithms (incoll)",
+%   volume = 1,
+%   booktitle = "The Art of Computer Programming",
+%   publisher = "Addison-Wesley",
+%   address = "Reading, Massachusetts",
+%   month = "10~" # jan,
+%   year = "1974",
+%   pages = "10--119",
+%   editor = "Bernard Rous",
+%   note = "This is a full incoll entry with an editor",
+%}
+
+%INcollection{DK:75-incollws,
+%   author = "Donald E. Knuth",
+%   title = "Fundamental Algorithms (incoll w series)",
+%   volume = 1,
+%   booktitle = "The Art of Computer Programming",
+%   series = "The Art of Computer Programming",
+%   publisher = "Addison-Wesley",
+%   address = "Reading, Massachusetts",
+%   month = "10~" # jan,
+%   year = "1975",
+%   pages = "10--119",
+%   editor = "Bernard Rous",
+%   note = "This is a full incoll entry with an editor and series",
+%}
+
+%Ramona Start
+@article{lelewer1987data,
+  title={Data compression},
+  author={Lelewer, Debra A and Hirschberg, Daniel S},
+  journal={ACM Computing Surveys (CSUR)},
+  volume={19},
+  number={3},
+  pages={261--296},
+  year={1987},
+  publisher={ACM}
+}
+@inproceedings{welton2011improving,
+  title={Improving i/o forwarding throughput with data compression},
+  author={Welton, Benjamin and Kimpe, Dries and Cope, Jason and Patrick, Christina M and Iskra, Kamil and Ross, Robert},
+  booktitle={2011 IEEE International Conference on Cluster Computing},
+  pages={438--445},
+  year={2011},
+  organization={IEEE}
+}
+@rfc{Deutsch:1996:ZCD:RFC1950,
+ author = {Deutsch, P. and Gailly, J.-L.},
+ title = {ZLIB Compressed Data Format Specification Version 3.3},
+ year = {1996},
+ publisher = {RFC Editor},
+ address = {United States},
+} 
+@article{point1991autonet,
+  title={Autonet: a high-speed, self-configuring local area network using point-to-point links},
+  author={Point-to, Local Area Network Using},
+  journal={IEEE Journal on Selected Areas in Communications},
+  volume={9},
+  pages={8},
+  year={1991},
+  publisher={Citeseer}
+}
+@book{campbell1974portable,
+  title={The portable jung},
+  author={Campbell, Joseph and Hull, Richard Francis Carrington},
+  year={1974},
+  publisher={Viking Press}
+}
+
+@inproceedings{shamieh2016adaptive,
+  title={Adaptive distributed compression technique utilizing intermediate network nodes},
+  author={Shamieh, Fuad and Akhtar, Auon and Wang, Xianbin},
+  booktitle={2016 IEEE Canadian Conference on Electrical and Computer Engineering (CCECE)},
+  pages={1--4},
+  year={2016},
+  organization={IEEE}
+}
+
+%1. A. Tanenbaum, D. Wetherall, "Chapter 5: THE NETWORK LAYER" in Computer Networks, Prentice Hall, pp. 392-404, 2011.
+@article{tanenbaum2011chapter,
+  title={Chapter 5: THE NETWORK LAYER},
+  author={Tanenbaum, A and Wetherall, D},
+  journal={Computer Networks, 5th ed., Prentice Hall},
+  pages={392--404},
+  year={2011}
+}
+
+
+%2. P. Larry, D. Bruce, "Chapter 1: Foundation" in Computer Networks ISE: A Systems Approach, Morgan Kaufmann Publishers Inc., pp. 13-17, 2007.
+@incollection{larry2007foundation,
+  title={Foundation},
+  author={Larry, P and Bruce, D},
+  booktitle={Computer Networks ISE: A Systems Approach},
+  pages={13--17},
+  year={2007},
+  publisher={Morgan Kaufmann Publishers Inc.}
+}
+
+
+
+%5. M. Shimamura, T. Ikenaga, M. Tsuru, "Compressing Packets Adaptively Inside Networks", Ninth Annual International Symposium on Applications and the Internet, pp. 92-99, 2009.
+
+@article{shimamura2010compressing,
+  title={Compressing packets adaptively inside networks},
+  author={Shimamura, Masayoshi and Koga, Hiroyuki and Ikenaga, Takeshi and Tsuru, Masato},
+  journal={IEICE transactions on communications},
+  volume={93},
+  number={3},
+  pages={501--515},
+  year={2010},
+  publisher={The Institute of Electronics, Information and Communication Engineers}
+}
+
+@inproceedings{liu2013versatile,
+  title={A versatile compression method for floating-point data stream},
+  author={Liu, Songbin and Huang, Xiaomeng and Ni, Yufang and Fu, Haohuan and Yang, Guangwen},
+  booktitle={2013 Fourth International Conference on Networking and Distributed Computing},
+  pages={141--145},
+  year={2013},
+  organization={IEEE}
+}
+
+@inproceedings{tian2017geometric,
+  title={Geometric distortion metrics for point cloud compression},
+  author={Tian, Dong and Ochimizu, Hideaki and Feng, Chen and Cohen, Robert and Vetro, Anthony},
+  booktitle={2017 IEEE International Conference on Image Processing (ICIP)},
+  pages={3460--3464},
+  year={2017},
+  organization={IEEE}
+}
+%6. D. Xi, Y. Yuanyuan, "On-line adaptive compression in delay sensitive wireless sensor networks", Mobile Adhoc and Sensor Systems (MASS) 2010 IEEE 7th International Conference on, pp. 452-461, 2010.
+
+@article{deng2012online,
+  title={Online adaptive compression in delay sensitive wireless sensor networks},
+  author={Deng, Xi and Yang, Yuanyuan},
+  journal={IEEE Transactions on Computers},
+  volume={61},
+  number={10},
+  pages={1429--1442},
+  year={2012},
+  publisher={IEEE}
+}
+
+%7. D. Bertsekas, R. Gallager, "Chapter 3: Delay Models in Data Networks" in Data Networks, PrenticeHall, pp. 187, 1987.
+
+
+@article{bertsekas1987chapter,
+  title={Chapter 3: Delay Models in Data Networks},
+  author={Bertsekas, D and Gallager, R},
+  journal={Data Networks, PrenticeHall},
+  pages={187--188},
+  year={1987}
+}
+
+
+
+%9. R. Serfozo, "Chapter 5: Little Law" in Introduction to Stochastic Networks, Springer, pp. 135-152, 1999.
+
+@incollection{serfozo1999little,
+  title={Little Laws},
+  author={Serfozo, Richard},
+  booktitle={Introduction to Stochastic Networks},
+  pages={135--154},
+  year={1999},
+  publisher={Springer}
+}
+
+%Enhanced compression scheme for high latency networks to improve quality of service of real-time applications
+
+@inproceedings{tan2010enhanced,
+  title={Enhanced compression scheme for high latency networks to improve quality of service of real-time applications},
+  author={Tan, Ling Sun and Lau, Sei Ping and Tan, Chong Eng},
+  booktitle={8th Asia-Pacific Symposium on Information and Telecommunication Technologies},
+  pages={1--6},
+  year={2010},
+  organization={IEEE}
+}
+
+@article{hahn2018detecting,
+  title={Detecting Compressed Cleartext Traffic from Consumer Internet of Things Devices},
+  author={Hahn, Daniel and Apthorpe, Noah and Feamster, Nick},
+  journal={arXiv preprint arXiv:1805.02722},
+  year={2018}
+}
+
+@article{zorn1999point,
+  title={Point-to-Point Tunneling Protocol (PPTP)},
+  author={Zorn, Glen and Pall, Gurdeep Singh and Hamzeh, Kory},
+  year={1999}
+}
+
+@inproceedings{pournaghshband2014end,
+  title={End-to-end detection of compression of traffic flows by intermediaries},
+  author={Pournaghshband, Vahab and Afanasyev, Alexander and Reiher, Peter},
+  booktitle={2014 IEEE Network Operations and Management Symposium (NOMS)},
+  pages={1--8},
+  year={2014},
+  organization={IEEE}
+}
+
+@inproceedings{teymourzadeh2013smart,
+  title={Smart gsm based home automation system},
+  author={Teymourzadeh, Rozita and Ahmed, Salah Addin and Chan, Kok Wai and Hoong, Mok Vee},
+  booktitle={2013 IEEE Conference on Systems, Process \& Control (ICSPC)},
+  pages={306--309},
+  year={2013},
+  organization={IEEE}
+}
+%Ramona End
+
